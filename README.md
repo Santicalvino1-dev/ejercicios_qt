@@ -50,9 +50,7 @@
 
 ## ⚙️ Cómo ejecutar
 
-Cada ejercicio está en su propia carpeta con su proyecto `.pro`.  
-Abrilo desde **Qt Creator** o compilalo con:
+Cada ejercicio está en su propio zip donde si descomprimimos encontraremos la carpeta con sus archivos necesarios SIN BUILD O .USER  
+Abrilo desde **Qt Creator** 
 
-```bash
-qmake && make
 
