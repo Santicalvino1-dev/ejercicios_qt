@@ -1,71 +1,58 @@
-# 🧠POO - Universidad Blas Pascal EJERCICIOS  
-📚 **Materia:** Programación Orientada a Objetos  
-👨‍🏫 **Profesor:** César Osimani  
-🧑‍💻 **Estudiante:** [Santiago Calviño]  
-🎓 **Año:** 2025
+<h1 align="center">🧠 Trabajo Práctico - POO en Qt & C++</h1>
+<p align="center">
+  <strong>Universidad Blas Pascal</strong><br>
+  <em>Ejercicios prácticos desarrollados con Qt5 y C++ en la materia Programación Orientada a Objetos</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Qt-5.15-green?logo=qt" />
+  <img src="https://img.shields.io/badge/C++-Orientado%20a%20Objetos-blue?logo=c%2B%2B" />
+  <img src="https://img.shields.io/badge/SQLite-integrated-lightgrey?logo=sqlite" />
+</p>
 
 ---
 
-## 📂 Ejercicios
+## 👤 Autor
 
-### 🪵 1. Poste ordenado por altura  
-Clase `Poste` con atributos altura y diámetro. Se almacenan en un vector y se ordenan por altura.
-
-### 🗣️ 2. Expresiones idiomáticas  
-Se guardan frases en un vector y se ordenan alfabéticamente ignorando espacios.
-
-### 🐾 3. Clase inventada y consumo de memoria  
-Se crea una clase original, se instancian objetos hasta consumir 200 MB y se publica la cantidad creada.
-
-### 🎚️ 4. Control de volumen  
-Se conecta un `QSlider` y `QSpinBox`. El valor del slider se refleja en el título de la ventana.
-
-### 🖼️ 5. Imagen en QLabel  
-Se muestra una imagen HD en pantalla completa por 3 segundos y se cierra la app automáticamente.
-
-### 🔐 6. Login básico con QGridLayout  
-Login con detección de Enter y clave oculta. Al loguearse, se muestra un formulario si los datos son correctos.
-
-### 📊 7. Simulador de encuestas (gráficos en consola)  
-Se recolectan votos en consola, se contabilizan por opción y se representa visualmente con barras de texto.
-
-### 🌡️ 12. Login con clima en tiempo real  
-Login en Qt que muestra la temperatura actual de Córdoba usando una API. Abre ventana si el login es correcto.
-
-### 🌄 13. Login con imagen online y ventana full screen  
-Login con imagen de fondo descargada de internet. Al loguearse correctamente, se abre otra ventana fullscreen.
-
-### 🎨 14. Pintura a mano alzada  
-Ventana donde el usuario puede dibujar con el mouse. Cambia color con teclado y grosor con scroll.
-
-### 🗃️ 15. Login con SQLite + Último ingreso  
-Valida usuarios desde SQLite. Muestra última fecha de ingreso al loguearse correctamente.
-
-### 💾 16. Recordar último usuario logueado  
-Similar al ejercicio 15, pero guarda y recuerda el último usuario logueado. La contraseña se guarda en MD5.
-
-### 🔳 17. Ventana con botones coloreados  
-Se definen botones personalizados con color. Cada uno se pinta diferente usando enumeraciones y `paintEvent`.
-
-### 🦖 18. T-Rex Extremo  
-Juego donde un dinosaurio debe esquivar cactus y pájaros usando teclas. Usa múltiples `QTimer` y detecta colisiones.
-
-### 💊 19. Gestión de Medicamentos (Simulacro Parcial)  
-App de escritorio para controlar dosis de medicamentos con límite de 1000. Guarda en base SQLite y usa operadores sobrecargados.
-
-### 🎸 20. Instrumentos musicales con herencia múltiple  
-Clases `Instrumento`, `Guitarra`, `Teclado` y `Batería`. Se usa herencia múltiple con `Electrico` y métodos virtuales.
-
-### 🌐 21. Descarga de recursos HTML  
-Analiza una web, extrae y descarga imágenes, JS y CSS. El usuario indica el sitio y el destino de descarga.
-
-### 📈 22. Sensor con Inline y Benchmark  
-Clase `Sensor` con métodos inline y offline. Se mide el rendimiento de llamadas usando `QElapsedTimer`.
-
-### 💵 23. Comparar saldo de cuentas  
-Clase `CuentaBancaria` con función amiga para comparar saldos entre dos cuentas.
-
-### 🧍 24. Contador de Personas con Static  
-Clase `Persona` con atributo estático que cuenta cuántas personas se han creado.
+- **Estudiante:** Santiago Calviño  
+- **Profesor:** César Osimani  
+- **Año:** 2025  
+- **Materia:** Programación Orientada a Objetos  
 
 ---
+
+## 📘 Tabla de Ejercicios
+
+| Nº | Ejercicio                              | Descripción resumida                                       |
+|----|----------------------------------------|-------------------------------------------------------------|
+| 01 | 🪵 Ordenamiento de postes              | Clase con altura y diámetro, ordenados por altura           |
+| 02 | 🗣️ Idiomas sin espacios                | Vector de frases, ordenadas ignorando espacios              |
+| 03 | 🧠 Clase inventada y memoria           | Instancias hasta consumir 200MB y contar cuántas hay        |
+| 04 | 🎚️ Control de volumen dinámico        | Slider que actualiza el título de la ventana                |
+| 05 | 🖼️ Imagen en QLabel                    | Imagen en fullscreen que se cierra tras 3 segundos          |
+| 06 | 🔐 Login con formulario validado       | Clave + formulario con legajo y nombre                      |
+| 07 | 🧾 Login con captcha                   | Validación con captcha y formulario con restricciones       |
+| 12 | 🌡️ Login con clima API                | Muestra temperatura en Córdoba usando API                  |
+| 13 | 🌄 Login con imagen online             | Carga imágenes desde internet, ventana fullscreen           |
+| 14 | 🎨 Pintura con scroll y teclado        | Dibujar con mouse, cambiar grosor y color                   |
+| 15 | 🗂️ Login con SQLite + Último ingreso  | Muestra nombre e ingreso más reciente desde base SQLite     |
+| 16 | 💾 Login persistente con clave MD5     | Guarda el último usuario y encripta clave en MD5            |
+| 17 | 🎨 Botones personalizados con enum     | Ventana con botones coloridos y fondo con `paintEvent`      |
+| 18 | 🦖 Juego T-Rex Extremo                 | Juego con saltos, obstáculos, QTimers y colisiones          |
+| 19 | 💊 Gestor de Medicamentos (SQLite)     | App que suma, compara y guarda cajas de medicamentos        |
+| 20 | 🎸 Instrumentos con herencia múltiple  | Clases `Guitarra`, `Batería`, `Teclado` y `Electrico`       |
+| 21 | 🌐 Parser de recursos web              | Extrae imágenes, CSS, JS de sitios web ingresados           |
+| 22 | 📟 Sensor inteligente con inline       | Benchmark entre métodos inline y offline                    |
+| 23 | 💰 Comparar saldo entre cuentas        | Función amiga para comparar saldo entre objetos             |
+| 24 | 👥 Contador de personas con static     | Atributo estático que cuenta cuántas instancias hay         |
+
+---
+
+## ⚙️ Cómo ejecutar
+
+Cada ejercicio está en su propia carpeta con su proyecto `.pro`.  
+Abrilo desde **Qt Creator** o compilalo con:
+
+```bash
+qmake && make
+
