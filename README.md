@@ -1,4 +1,4 @@
-<h1 align="center">🧠 Trabajo Práctico - POO en Qt & C++</h1>
+<h1 align="center">🧠 - POO en Qt & C++</h1>
 <p align="center">
   <strong>Universidad Blas Pascal</strong><br>
   <em>Ejercicios prácticos desarrollados con Qt5 y C++ en la materia Programación Orientada a Objetos</em>
