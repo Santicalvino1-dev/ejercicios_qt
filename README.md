@@ -64,7 +64,7 @@ Todos los ejercicios están hechos con **QWidget** (no `QMainWindow`) y usan `.p
 - **Profesor:** César Osimani  
 - **Carrera:** Ingeniería / Sistemas  
 - **Año:** 2025  
-- **Contacto:** TBD
+
 
 ---
 
