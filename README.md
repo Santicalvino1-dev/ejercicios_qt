@@ -1,4 +1,4 @@
-# 🧠 Trabajo Práctico POO - Universidad Blas Pascal  
+# 🧠POO - Universidad Blas Pascal EJERCICIOS  
 📚 **Materia:** Programación Orientada a Objetos  
 👨‍🏫 **Profesor:** César Osimani  
 🧑‍💻 **Estudiante:** [Santiago Calviño]  
