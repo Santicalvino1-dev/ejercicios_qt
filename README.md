@@ -12,15 +12,6 @@
 
 ---
 
-## 👤 Autor
-
-- **Estudiante:** Santiago Calviño  
-- **Profesor:** César Osimani  
-- **Año:** 2025  
-- **Materia:** Programación Orientada a Objetos  
-
----
-
 ## 📘 Tabla de Ejercicios
 
 | Nº | Ejercicio                              | Descripción resumida                                       |
@@ -50,7 +41,36 @@
 
 ## ⚙️ Cómo ejecutar
 
-Cada ejercicio está en su propio zip donde si descomprimimos encontraremos la carpeta con sus archivos necesarios SIN BUILD O .USER  
-Abrilo desde **Qt Creator** 
+Cada ejercicio está en su propio `.zip`, y al descomprimir encontrarás una carpeta con los archivos del proyecto  
+(sin carpetas `build/` ni archivos `.user`).
 
+Abrí cualquier carpeta desde **Qt Creator** y compilá normalmente.  
+Todos los ejercicios están hechos con **QWidget** (no `QMainWindow`) y usan `.pro` con qmake.
 
+---
+
+## 🛠️ Requisitos
+
+- Qt 5.x o 6.x  
+- C++11 o superior  
+- Compatible con Qt Creator (proyectos qmake)  
+- En algunos casos, conexión a internet para consumir APIs
+
+---
+
+## 👤 Autor
+
+- **Nombre:** Santiago Calviño  
+- **Profesor:** César Osimani  
+- **Carrera:** Ingeniería / Sistemas  
+- **Año:** 2025  
+- **Contacto:** TBD
+
+---
+
+## 🧾 Licencia
+
+Este repositorio es público y está abierto para fines educativos.  
+Podés bifurcarlo, adaptarlo o reutilizarlo libremente para estudio o práctica personal.
+
+---
